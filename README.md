@@ -9,7 +9,7 @@ Uma aplicação desktop moderna, leve e de alta velocidade projetada para fatiar
 
 ---
 
-## 📸 Capturas de Tela
+## Capturas de Tela
 
 <div align="center">
   <img src="Preview/Screenshot_2.png" alt="Interface do Cortador de Vídeos" width="450" />
@@ -18,7 +18,7 @@ Uma aplicação desktop moderna, leve e de alta velocidade projetada para fatiar
 
 ---
 
-## 🎯 Para Quem É Esse Projeto?
+## Para Quem É Esse Projeto?
 
 Este projeto foi desenvolvido especialmente para:
 
@@ -29,18 +29,18 @@ Este projeto foi desenvolvido especialmente para:
 
 ---
 
-## ⚙️ O Que o Sistema Faz?
+## O Que o Sistema Faz?
 
 O **Cortador de Vídeos** recebe qualquer arquivo de vídeo suportado, calcula a sua duração total e o divide em blocos uniformes com base na quantidade de segundos estipulada pelo usuário.
 
 ### Por que ele é tão rápido?
 Diferente de editores tradicionais que re-codificam o vídeo inteiro (processo demorado e que consome muita CPU/GPU), o sistema utiliza a tecnologia de **Stream Copy (`-c copy`) do FFmpeg**:
-- ⚡ **Velocidade Ultrarrápida:** Os segmentos são gerados à velocidade de leitura e gravação do disco (poucos segundos para vídeos longos).
-- 💎 **100% Sem Perda de Qualidade:** O fluxo de vídeo e áudio original é preservado bit a bit, sem compressão adicional ou alteração de taxa de bits (bitrate).
+- **Velocidade Ultrarrápida:** Os segmentos são gerados à velocidade de leitura e gravação do disco (poucos segundos para vídeos longos).
+- **100% Sem Perda de Qualidade:** O fluxo de vídeo e áudio original é preservado bit a bit, sem compressão adicional ou alteração de taxa de bits (bitrate).
 
 ---
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - [x] **Seleção Simples de Arquivo:** Interface intuitiva para escolher o arquivo de vídeo original.
 - [x] **Suporte a Múltiplos Formatos:** Compatível com `.mp4`, `.avi`, `.mov`, `.mkv`, `.wmv`, `.flv`, `.webm`, entre outros.
@@ -53,7 +53,7 @@ Diferente de editores tradicionais que re-codificam o vídeo inteiro (processo d
 
 ---
 
-## 🛠️ Stack Tecnológica
+##  Stack Tecnológica
 
 | Tecnologia | Finalidade |
 | :--- | :--- |
@@ -65,7 +65,7 @@ Diferente de editores tradicionais que re-codificam o vídeo inteiro (processo d
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```text
 Cortador-de-video/
@@ -80,7 +80,7 @@ Cortador-de-video/
 
 ---
 
-## 🚀 Como Instalar e Executar
+##  Como Instalar e Executar
 
 ### 1. Pré-requisitos
 
@@ -138,7 +138,7 @@ python main.py
 
 ---
 
-## 📖 Como Usar Passo a Passo
+##  Como Usar Passo a Passo
 
 1. **Selecione o Vídeo:** Clique no botão **"Selecionar Vídeo"** e escolha o arquivo que deseja cortar no seu computador.
 2. **Defina a Duração:** No campo **"Duração de cada trecho (segundos)"**, ajuste o valor desejado usando as setas ou digitando diretamente (ex: `30` para status do WhatsApp, `60` para Reels).
@@ -148,7 +148,7 @@ python main.py
 
 ---
 
-## 💡 Dicas de Uso
+##  Dicas de Uso
 
 - **Status do WhatsApp:** Defina a duração para `30` segundos.
 - **Stories do Instagram:** Defina a duração para `15` ou `60` segundos.
@@ -156,9 +156,9 @@ python main.py
 
 ---
 
-## 👨‍💻 Autor e Créditos
+## Desenvolvedor
 
-Desenvolvido por **FabDev / Suporte Tech**.
+Desenvolvido por **FabDev**.
 
 Sinta-se à vontade para enviar sugestões, reportar problemas ou abrir Pull Requests para contribuir com novas funcionalidades!
 
